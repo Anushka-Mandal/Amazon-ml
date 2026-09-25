@@ -1,0 +1,26 @@
+/Users/ankanamandal/Downloads/student_resource/code/business_entity_resolution/src/prepare.py:35: DeprecationWarning: the default behavior of `how='horizontal'` for `concat` is deprecated and will require equal heights in the next breaking release. Use `how='horizontal_extend'` to keep the current behavior.
+(Deprecated in version 1.42.1)
+  return pl.concat([df.select(pl.col("entity_id").alias("id"), "country"), out], how="horizontal")
+test 1 (1732544, 13)
+test 2 (4887273, 13)
+test 3 (5082316, 13)
+/Users/ankanamandal/Downloads/student_resource/code/business_entity_resolution/src/blocking.py:36: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  .explode("t")
+[test:US] s1=663106 vocab=1904865 nnz1=6337358 build 86s
+   chunk 0/166 96s
+   chunk 50/166 161s
+   chunk 100/166 231s
+   chunk 150/166 294s
+[test:US] done 313s
+[test:India] s1=809986 vocab=2864588 nnz1=9921625 build 607s
+   chunk 0/203 620s
+   chunk 50/203 705s
+   chunk 100/203 788s
+   chunk 150/203 883s
+   chunk 200/203 977s
+[test:India] done 981s
+[test:France] s1=259452 vocab=336489 nnz1=1836216 build 1015s
+   chunk 0/65 1021s
+   chunk 50/65 1052s
+[test:France] done 1060s
+test candidates 41578850 1065s
