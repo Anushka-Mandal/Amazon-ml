@@ -1,0 +1,36 @@
+blocking: 52960556 pairs, 24.0/S1, recall 0.9400
+   recall@rank<1: 0.4447
+   recall@rank<2: 0.7104
+   recall@rank<3: 0.8378
+   recall@rank<5: 0.9093
+   recall@rank<8: 0.9289
+   recall@rank<12: 0.9400
+  features train/tr chunk 0 (60000/300000) 100s
+  features train/tr chunk 1 (120000/300000) 135s
+  features train/tr chunk 2 (180000/300000) 168s
+  features train/tr chunk 3 (240000/300000) 202s
+  features train/tr chunk 4 (300000/300000) 238s
+  features train/va chunk 0 (60000/150000) 106s
+  features train/va chunk 1 (120000/150000) 141s
+  features train/va chunk 2 (180000/150000) 158s
+features: 65 train pairs 7199498 pos 975914 valid pairs 3599792
+Training until validation scores don't improve for 50 rounds
+[100]	valid_0's binary_logloss: 0.0119526
+[200]	valid_0's binary_logloss: 0.0104419
+[300]	valid_0's binary_logloss: 0.0100675
+[400]	valid_0's binary_logloss: 0.00989378
+[500]	valid_0's binary_logloss: 0.00978306
+[600]	valid_0's binary_logloss: 0.00971151
+[700]	valid_0's binary_logloss: 0.00966469
+[800]	valid_0's binary_logloss: 0.00962115
+[900]	valid_0's binary_logloss: 0.00958447
+[1000]	valid_0's binary_logloss: 0.00956404
+[1100]	valid_0's binary_logloss: 0.00956035
+[1200]	valid_0's binary_logloss: 0.00955314
+Early stopping, best iteration is:
+[1171]	valid_0's binary_logloss: 0.00954919
+top features: [('b_margin_r', 18713), ('r_rank', 2953), ('anum_cont', 1998), ('anum_nb', 717), ('b_rel_r', 665), ('n_ratio', 582), ('b_rel_self', 407), ('c_partial', 284), ('a_tset', 279), ('n_tset', 215), ('num_str_ratio', 195), ('nm_idf_b', 174), ('nm_idf_unshared', 170), ('anum_jac', 168), ('c_ntok_b', 132), ('num_cont', 132), ('c_jw', 127), ('cc_ratio', 93), ('cc_partial', 92), ('num_jac', 85)]
+exclusive True best so far (0.9652773734525733, {'t_abs': 0.7, 't_rel': 0.0, 'exclusive': True})
+exclusive False best so far (0.9652773734525733, {'t_abs': 0.7, 't_rel': 0.0, 'exclusive': True})
+VALID macro F0.5: (0.9652773734525733, {'t_abs': 0.7, 't_rel': 0.0, 'exclusive': True})
+../../../.venv/bin/python train.py  3854.06s user 489.49s system 368% cpu 19:38.06 total
