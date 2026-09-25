@@ -1,0 +1,31 @@
+  features test/all chunk 0 (60000/1732543) 152s
+  features test/all chunk 1 (120000/1732543) 190s
+  features test/all chunk 2 (180000/1732543) 230s
+  features test/all chunk 3 (240000/1732543) 273s
+  features test/all chunk 4 (300000/1732543) 334s
+  features test/all chunk 5 (360000/1732543) 393s
+  features test/all chunk 6 (420000/1732543) 440s
+  features test/all chunk 7 (480000/1732543) 481s
+  features test/all chunk 8 (540000/1732543) 525s
+  features test/all chunk 9 (600000/1732543) 560s
+  features test/all chunk 10 (660000/1732543) 597s
+  features test/all chunk 11 (720000/1732543) 636s
+  features test/all chunk 12 (780000/1732543) 675s
+  features test/all chunk 13 (840000/1732543) 708s
+  features test/all chunk 14 (900000/1732543) 743s
+  features test/all chunk 15 (960000/1732543) 780s
+  features test/all chunk 16 (1020000/1732543) 815s
+  features test/all chunk 17 (1080000/1732543) 845s
+  features test/all chunk 18 (1140000/1732543) 876s
+  features test/all chunk 19 (1200000/1732543) 910s
+  features test/all chunk 20 (1260000/1732543) 946s
+  features test/all chunk 21 (1320000/1732543) 988s
+  features test/all chunk 22 (1380000/1732543) 1028s
+  features test/all chunk 23 (1440000/1732543) 1059s
+  features test/all chunk 24 (1500000/1732543) 1093s
+  features test/all chunk 25 (1560000/1732543) 1131s
+  features test/all chunk 26 (1620000/1732543) 1170s
+  features test/all chunk 27 (1680000/1732543) 1213s
+  features test/all chunk 28 (1740000/1732543) 1247s
+test S1: 1732544 links: 5510652 singletons predicted: 108992 candidate pairs: 41578850
+../../../.venv/bin/python predict.py  5988.59s user 648.14s system 338% cpu 32:40.24 total
