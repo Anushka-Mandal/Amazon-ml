@@ -1,0 +1,8 @@
+/Users/ankanamandal/Downloads/student_resource/code/business_entity_resolution/src/blocking.py:36: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  .explode("t")
+[train:US] s1=1323633 vocab=3176297 nnz1=11847782 build 275s
+[train:US] done 816s
+[train:India] s1=883188 vocab=3029341 nnz1=10998522 build 1022s
+[train:India] done 1408s
+train candidates 52960556 1413s
+../../../.venv/bin/python blocking.py train  2613.00s user 1844.56s system 315% cpu 23:34.40 total
