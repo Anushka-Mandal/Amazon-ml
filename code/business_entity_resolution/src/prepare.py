@@ -37,7 +37,7 @@ def normalize_df(df, pool, chunk=20000):
 
 def main(split):
     import os
-    ctx = get_context("fork")
+    ctx = get_context("spawn")
     with ctx.Pool(N_JOBS, initializer=_init) as pool:
         for k in (1, 2, 3):
             if os.path.exists(work(f"{split}_s{k}.parquet")) and os.environ.get("ER_REDO") != "1":
